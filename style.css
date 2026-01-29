@@ -119,7 +119,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 20%;
+    width: 50%;
+    margin: auto;
+    padding: 32px 25%;
     background-color: #e5e7eb;
 }
 
@@ -132,6 +134,34 @@ body {
 .about_me_name {
     align-self: flex-end;
     font-size: 28px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 48px;
+    background-color: #3882F6;
+    margin: 96px auto;
+    width: 50%;
+    border-radius: 12px;
+    gap: 32px;
+    color: white;
+}
+
+.call_to_action_text h3 {
+    font-size: 18px;
+}
+
+.call_to_action button {
+    padding: 6px 24px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+}
+.call_to_action button:hover {
+    cursor: pointer;
 }
 
 
