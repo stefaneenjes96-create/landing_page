@@ -38,6 +38,7 @@ body {
     margin-left: auto;
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .lower_header {
@@ -48,6 +49,7 @@ body {
     color: white;
     gap: 32px;
     padding: 64px;
+    flex-wrap: wrap;
 }
 
 .website_info {
@@ -96,7 +98,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 46px
+    gap: 46px;
+    flex-wrap: wrap;
 }
 
 .dog {
@@ -107,6 +110,7 @@ body {
     flex-direction: column;
     gap: 12px;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 .dog img {
@@ -164,5 +168,12 @@ body {
     cursor: pointer;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+    padding: 32px;
+}
 
 
