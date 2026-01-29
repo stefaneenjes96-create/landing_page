@@ -69,6 +69,7 @@ body {
     padding: 6px;
     border-radius: 5px;
     border: 1px solid black;
+    color: white;
 }
 
 .website_info button:hover {
